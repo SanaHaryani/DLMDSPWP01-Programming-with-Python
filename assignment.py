@@ -243,7 +243,7 @@ def main():
         test_results.to_sql("test_results", engine,
                             if_exists="replace", index=False)
 
-# Matplotlib plots
+# Matplotlib plot
 
         plot_train_vs_ideal(training, ideal, best_functions)
         plot_test_scatter(test_results)
